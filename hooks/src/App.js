@@ -14,6 +14,11 @@ import MouseContainer from './Components/MouseContainer';
 import IntervalHookCounter from './Components/IntervalHookCounter';
 import DataFetching from './Components/DataFetching';
 import ComponentC from './Components/ComponentC';
+import ReducerHook from './Components/ReducerHook';
+import REducerHooktwo from './Components/REducerHooktwo';
+import ComponentG from './Components/ComponentG';
+import ComponentH from './Components/ComponentH';
+import ComponentI from './Components/ComponentI';
 
 
 export const UserContext = React.createContext()
@@ -33,14 +38,19 @@ function App() {
       {/* <IntervalHookCounter/> */}
       {/* <DataFetching/> */}
 
-      <UserContext.Provider value={'Rajat'}>
+      {/* <UserContext.Provider value={'Rajat'}>
         <ChannelContext.Provider value={'Panwar'}>
 
            <ComponentC/>
 
         </ChannelContext.Provider>
 
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      {/* <ReducerHook/> */}
+      {/* <REducerHooktwo/> */}
+      <ComponentG/>
+      <ComponentH/>
+      <ComponentI/>
       
     </div>
   );
