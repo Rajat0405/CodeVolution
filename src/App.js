@@ -12,6 +12,14 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Form from './components/Form';
+import LifecycleA from './components/lifecycleA';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 class App extends Component {
   render() {
@@ -35,7 +43,18 @@ class App extends Component {
         {/* <EventBind/> */}
         {/* <ParentComponent/> */}
         {/* <UserGreeting/> */}
-        <NameList/>
+        {/* <NameList/> */}
+        {/* <Form/> */}
+        <LifecycleA/>
+        {/* <ParentComp/> */}
+        {/* <ErrorBoundary>
+        <Hero heroname='Batman'/>
+        <Hero heroname='Superman'/>
+        <Hero heroname='joker'/>
+        </ErrorBoundary> */}
+        {/* <ClickCounter/>
+        <HoverCounter/> */}
+        
 
       </div>
     )
